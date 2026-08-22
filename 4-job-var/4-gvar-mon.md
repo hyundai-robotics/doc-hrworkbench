@@ -1,6 +1,6 @@
 ﻿# 4.4 전역변수 모니터링과 값 설정
 
-연결 버튼이 눌린 온라인 상태에서는 전역 변수 창이 현재 전역변수 값들을 표시해줍니다. 전역변수 창의 기능은 Hi6/Hi7 티치펜던트(TP630)의 전역변수 창과 거의 동일합니다. 
+연결 버튼이 눌린 온라인 상태에서는 전역 변수 창이 현재 전역변수 값들을 표시해줍니다. 전역변수 창의 기능은 ${cont_model} 티치펜던트(TP630)의 전역변수 창과 거의 동일합니다. 
 아래 링크의 사용법을 참조하십시오.
 
 https://hrbook-hrc.web.app/#/view/doc-hi6-operation/ko-tp630/6-monitoring/3-job/3-global-variable/README?cont_model=Hi7
