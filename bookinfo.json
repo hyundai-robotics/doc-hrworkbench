@@ -1,0 +1,12 @@
+﻿{
+    "langCode": "ko",
+    "series": "${cont_model} 제어기",
+    "title": "기능설명서 - HRWorkbench",
+    "publisher": "HD현대로보틱스",
+    "tocTitle": "목차",
+    "tocTitleElements": "[ \"h1\", \"h2\" ]",
+    "docId": "${cont_model:upper}HRWORKBENCH_KO_001",
+    "references": [
+        { "title" : "${cont_model} 제어기 조작설명서 - TP630", "id" : "${cont_model:upper}OPTP630_KO_001" }
+    ]
+}
