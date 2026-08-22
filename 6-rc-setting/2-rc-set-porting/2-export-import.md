@@ -26,7 +26,7 @@ PC에 C1~C4 제어기 각각의 백업 폴더가 있고, 각 제어기가 전체
 ![](../../_assets/rc-setting/rcset-port-07.png)
 
 C2 제어기의 PC경로를 선택하고, `PC/project/` 에 붙여넣기를 수행합니다.
-(HRWorkbench 대신, 윈도우 탐색기 등 다른 수단으로 복사해도 됩니다.)
+(HRWorkBench 대신, 윈도우 탐색기 등 다른 수단으로 복사해도 됩니다.)
  
 ![](../../_assets/rc-setting/rcset-port-08.png)
 
