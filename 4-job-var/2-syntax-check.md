@@ -1,14 +1,17 @@
-﻿# 4.2 로봇언어 문법 검사
+﻿# 4.2 Check the Robot Language Syntax
 
-현재 편집 중인 job파일에 대한 기본적인 문법 검사를 원격으로 수행할 수 있습니다.
-아래와 같이 검사할 job파일이 열려 있는 상태에서 `주 메뉴 - Job`, 혹은 툴 막대의 `문법 검사`를 클릭하십시오.
- 
+You can remotely carry out a basic syntax check on the job file currently being edited. 
+
+While the job file to be checked is open, as shown below, click `Syntax Check` on the main menu or on the toolbar.
+
 ![](../_assets/job-edit/syntax-check1.png)
  
 ![](../_assets/job-edit/syntax-check2.png)
 
-`문법 검사` 창에 문법 에러가 있는 경로파일명과 행번호, 에러 메시지가 표시됩니다. 에러 항목을 더블클릭하면 해당 위치로 커서가 이동합니다.
+The path file name and line number, where there is a syntax error, and the relevant error message will be displayed on the `Syntax Check` window.
+
+Double-clicking an error will move the cursor to the corresponding position.
  
 ![](../_assets/job-edit/syntax-check3.png)
 
-이 문법 검사는 job을 실행하지 않고 수행하기 때문에, 수행 시 발생할 모든 에러를 검지하지 못합니다. 위 그림에서 예시한 job파일에서 var을 val로 잘못 표기한 것과 `move`문 `accu`의 범위 0~7을 초과한 것은 검지했습니다. 그러나 `wait`문의 I/O 변수 `do31`을 `DO31`로 잘못 표기한 것과 `tno=2`를 `tn=2`로 잘못 표기한 것은 검지하지 못했습니다. 실행 중 `DO31`와 `tn`이라는 변수가 생성될 가능성도 있기 때문에 이를 에러로 간주하지 않는 것입니다.
+Because this syntax check is executed without the actual execution of a job, it cannot detect all errors that may occur when a job is executed. In the job file shown in the figure above, it was detected that `var` was incorrectly marked as `val` and that the `move` statement accuracy exceeded the range of 0–7. However, it could not detect that the I/O variable do31 of the `wait` statement was incorrectly marked as `DO31` and that `tno=2` was incorrectly marked as `tn=2.` They are not considered errors because the variables `DO31` and `tn` may possibly have been created during execution.

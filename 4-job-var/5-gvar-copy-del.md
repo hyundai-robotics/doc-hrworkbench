@@ -1,33 +1,35 @@
-﻿# 4.5 전역변수 파일의 복사와 삭제
+﻿# 4.5 Copying and deleting global variable files
 
 {% hint style="info" %}
-v1.4.2 이전의 전역변수 export 기능은 이 기능으로 대체되었습니다.
+The global variable export function prior to v1.4.2 is superseded by this function.
 {% endhint %}
 
-변수 창에서 전역변수의 모니터링과 값 설정이 가능하지만 대량의 변수목록을 편집하기에는 한계가 있습니다.
-전역변수는 ${cont_model} 제어기 내의 `vars.json` 파일에 저장되고, 이 중 최상위 배열 변수는 `.csv` 파일들에 저장됩니다. 이들은 모두 텍스트 파일들이기 때문에, PC로 전송받으면 쉽게 편집할 수 있습니다.
+The Variables window allows you to monitor global variables and set values, but has limitations in editing large lists of variables.
+Global variables are stored in `var.json` files within the ${cont_model} controller, of which predefined-variables are stored in `.csv` files. These are all text files, so you can easily edit them if you copy them to your PC.
 
-변수 파일을 백업, 복원하는 방법은 job 파일과 유사합니다. 로봇제어기의 `vars/` 폴더, 혹은 일부 파일들을 선택한 후 마우스 우클릭으로 팝업 메뉴를 여십시오. `PC로 백업 메뉴`를 선택하면 이력창에 복사 결과가 표시되고, 복사된 파일명들은 `PC/vars` 노드에 표시됩니다.
+The method of backing up and restoring variable files is similar to job files. Select the `vars/` folder of the robot controller, or some files, and then right-click to open the pop-up menu. When the `Backup to PC` menu is selected, the Log panel displays the copy results, and the copied file names are displayed in the `PC/vars` node.
 
 ![](../_assets/var-edit/var-backup1.png)
 ![](../_assets/var-edit/var-backup2.png)
 ![](../_assets/var-edit/var-backup3.png)
 
-다음으로 PC에서 로봇제어기로 복사해보겠습니다. 방법은 유사합니다.
-탐색창의 `PC/vars/` 경로 밑에서 원하는 변수 파일들을 클릭하여 선택합니다.
-선택된 변수 파일들에 우 버튼을 클릭한 후, `로봇제어기로 복원` 팝업 메뉴를 선택하십시오.
+Next, let's copy from the PC to the robot controller. The methods are similar.
+
+Click to select the desired variable files under `PC/vars/` path in the Explorer panel.
+Click the right button on the selected variable files and select the `Restore to Robot Controller` pop-up menu.
 
 ![](../_assets/var-edit/var-restore1.png)
 ![](../_assets/var-edit/var-restore2.png)
 
-로봇제어기나 PC의 변수 파일들은 '삭제' 팝업 메뉴로 삭제할 수 있습니다. 로봇제어기의 변수 파일을 삭제하면 해당 변수 또한 삭제됩니다.
+
+Variable files on the robot controller or PC can be deleted using the `Delete` pop-up menu. Deleting a variable file on the robot controller also deletes that variable.
 
 ![](../_assets/var-edit/var-del.png)
 
 {% hint style="warn" %}
-변수 복원이나 삭제를 수행할 때는 ${cont_model} 제어기는 재생 정지 상태여야 합니다.재생 중 수행하면 불가 메시지가 출력됩니다.
+When restoring or deleting variables, the ${cont_model} controller must be in the Motor-Off state. When carried out in the Motor-On state, the message is displayed that it is not possible.
 {% endhint %}
 
-PC에서 변수 파일은 더블클릭하면 텍스트 편집 윈도우가 열립니다. 로봇제어기의 변수 파일을 더블클릭하면 PC/vars/로 일단 백업을 한 후 PC측의 파일을 엽니다.
+Double-click a variable file on your PC to open a text edit window. If you double-click the variable file on the robot controller, once it backs up it to `PC/vars/` and open the file on the PC side.
 
 ![](../_assets/var-edit/csv-edit.png)
