@@ -1,4 +1,4 @@
-# 6.1 Checking Controller Setting
+﻿# 6.1 Checking Controller Setting
 
 You can check the contents of the setting files copied to the PC.
 

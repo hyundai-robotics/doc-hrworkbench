@@ -1,10 +1,10 @@
-# 5.1.1 Event log monitoring window
+﻿# 5.1.1 Event log monitoring window
 
-At the bottom, you can see two tabs: `Event Log – RC` and `Event Log – PC`.
+At the bottom, you can see two tabs: `Event Log - RC` and `Event Log - PC`.
 
-`Event Log – RC` is a window that monitors the event log in the controller and the newly occurring events in the ${cont_model}  controller connected via Ethernet.
+`Event Log - RC` is a window that monitors the event log in the controller and the newly occurring events in the ${cont_model}  controller connected via Ethernet.
 
-`Event Log – PC` is a window that reads and displays event log files in the `log/` folder of the PC path. (Supported in ${cont_model} Controller V60.05-04 and later versions.)
+`Event Log - PC` is a window that reads and displays event log files in the `log/` folder of the PC path. (Supported in ${cont_model} Controller V60.05-04 and later versions.)
 
 This window provides the similar functions as those of the U/I provided by ${cont_model}'s teach pendant. New events will be highlighted in yellow.
 
@@ -74,11 +74,11 @@ At the top of the window are event type filter buttons, displaying only the pres
 <tr>
   <td rowspan=2><img src="../../_assets/log/bt-dot3.png"><br>(Pop-up menu)</td>
   <td>Save to log files</td>
-  <td>Save the logs that have been accumulated in the controller’s memory as log files in the controller.</td>
+  <td>Save the logs that have been accumulated in the controller's memory as log files in the controller.</td>
 </tr>
 <tr>
   <td>Clear log files</td>
-  <td>Clear all the logs both in the controller’s memory and in the log files.</td>
+  <td>Clear all the logs both in the controller's memory and in the log files.</td>
 </tr>
 <tr>
   <td rowspan=2></td>

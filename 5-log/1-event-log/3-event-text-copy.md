@@ -1,4 +1,4 @@
-# 5.1.3 Copy event text
+﻿# 5.1.3 Copy event text
 
 Right-clicking the selected event history opens a pop-up menu.
 

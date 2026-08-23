@@ -1,4 +1,4 @@
-# 5.3.5 Export to .csv file
+﻿# 5.3.5 Export to .csv file
 
 If you want to analyze scope log data with other software, such as _Microsoft Excel_ or _MATLAB_, you can save it as a `.csv (comma-separated values)` standard format file.
 

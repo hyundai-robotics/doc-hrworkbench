@@ -13,11 +13,11 @@ HRWorkBench is a Windows PC software designed for supporting the teaching of the
 |Execute the Robot Language|You can remotely execute an assignment statement of a job file. There is no support for the move statement or flow control statement.|
 |Monitor, check logs in the controller|You can monitor the logs of errors, warnings, etc. that have occurred in the remote controller. And you can check the logs of the project you backed up to the PC.|
 |Check the scope logs|Load and draw the data waveform of the scope log that generated on critical error as a robot collision. You can also export the data waveform to a .csv file.|
-|Verify and Port Settings|You can apply some of a controller’s settings or variables to another controller in the same way.|
+|Verify and Port Settings|You can apply some of a controller's settings or variables to another controller in the same way.|
 
 
-{% hint style="warn" %}
-This program allows you to remotely change the job program or variable value, so it may affect the robot′s operation. You are required to read this manual and use the program carefully while paying sufficient attention!
+{% hint style="warning" %}
+This program allows you to remotely change the job program or variable value, so it may affect the robot's operation. You are required to read this manual and use the program carefully while paying sufficient attention!
 {% endhint %}
 
 * HRWorkBench can be downloaded from the `Download center` page under `Customer Support` on the HD Hyundai Robotics website(https://www.hd-hyundairobotics.com/en/main).

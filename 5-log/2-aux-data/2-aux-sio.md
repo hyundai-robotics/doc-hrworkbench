@@ -1,4 +1,4 @@
-# 5.2.2 System input/output (aux.sin/sout)
+﻿# 5.2.2 System input/output (aux.sin/sout)
 
 When you click the Error/Warning/Start/Stop event row, the system input and output at the time the event are displayed.
 

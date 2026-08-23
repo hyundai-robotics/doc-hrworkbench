@@ -26,6 +26,6 @@ In the Explore window, open a pop-up menu for the `Robot Controller` node by rig
 
 Press the `Start` button after checking the target that needs to be restored. The files in the controller will be restored to the PC path, and the Completed dialog box will be displayed.
 
-{% hint style="warn" %}
+{% hint style="warning" %}
 When performing the restore, the ${cont_model} controller must be in the motor-off state. When performed in the motor-on state, a 'impossible' message is output
 {% endhint %}

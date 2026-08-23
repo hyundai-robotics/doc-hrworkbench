@@ -26,7 +26,7 @@ Variable files on the robot controller or PC can be deleted using the `Delete` p
 
 ![](../_assets/var-edit/var-del.png)
 
-{% hint style="warn" %}
+{% hint style="warning" %}
 When restoring or deleting variables, the ${cont_model} controller must be in the Motor-Off state. When carried out in the Motor-On state, the message is displayed that it is not possible.
 {% endhint %}
 

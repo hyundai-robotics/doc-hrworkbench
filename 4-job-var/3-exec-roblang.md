@@ -18,7 +18,7 @@ A success message will be displayed in the Log window if the remote execution is
 ![](../_assets/job-edit/exec-roblang03.png)
 ![](../_assets/job-edit/exec-roblang04.png)
 
- 
+ 
 Clicking on `Job` in the main menu or `Run Job` in the toolbar will execute all of the currently selected jobs, including the `print` statement.
 
 ![](../_assets/job-edit/exec-roblang05.png)

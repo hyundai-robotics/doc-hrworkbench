@@ -7,7 +7,7 @@ Each function will be described in the order according to the operation sequence
 
 
 The elements of the user interface can be rearranged into a layout convenient for the work.
-Dragging the toolbar´s left edge or dragging the title bar of each window will allow you to detach the toolbar or a window while it is in docking state or attach it back into the docking state. When in the docking state, the windows can be arranged side by side, or they can be stacked into a page from which you can select one using a tab.
+Dragging the toolbar's left edge or dragging the title bar of each window will allow you to detach the toolbar or a window while it is in docking state or attach it back into the docking state. When in the docking state, the windows can be arranged side by side, or they can be stacked into a page from which you can select one using a tab.
 
 
 <div style="display: flex; gap: 20px;">

@@ -1,4 +1,4 @@
-# 5.2.3 General input/output (aux.din/dout)
+﻿# 5.2.3 General input/output (aux.din/dout)
 
 When you click the Periodic State/IO event row, the general input and output are displayed.
 

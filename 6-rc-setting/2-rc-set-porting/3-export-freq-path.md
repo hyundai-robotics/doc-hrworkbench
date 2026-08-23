@@ -1,4 +1,4 @@
-# 6.2.3 Exporting Often Used Paths
+﻿# 6.2.3 Exporting Often Used Paths
 
 If you often need to repeatedly export settings for multiple paths, manually selecting the paths each time can be cumbersome.
 
@@ -32,7 +32,7 @@ The file must follow JSON syntax (https://www.json.org/json-en.html), but the fi
 	}
 	```
 
-In the example above, `lvs gains` and `arc.cond 1001–1004` are the group names that will appear in the combo-box.
+In the example above, `lvs gains` and `arc.cond 1001-1004` are the group names that will appear in the combo-box.
 
 The values for each group should be written as an array of path strings, i.e., listed within `[ ]`.
 

@@ -1,4 +1,4 @@
-# 5.3.2 Open scope
+﻿# 5.3.2 Open scope
 
 ![](../../_assets/log/scopelog02.png)
 

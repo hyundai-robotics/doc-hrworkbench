@@ -1,4 +1,4 @@
-# 5.2.1. Pose Data (aux.pose)
+﻿# 5.2.1. Pose Data (aux.pose)
 
 When you click the Error/Warning/Start/Stop event row, the program counter at the time of the event and the value of each axis (mm|deg) are displayed.
 
