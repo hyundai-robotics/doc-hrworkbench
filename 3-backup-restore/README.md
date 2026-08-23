@@ -1,2 +1,2 @@
-﻿# 3. 백업과 복원
+﻿# 3. Backup and Restore
 
