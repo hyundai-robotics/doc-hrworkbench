@@ -1,8 +1,8 @@
-# 5.1.3 이벤트 텍스트 복사
+# 5.1.3 Copy event text
 
-선택한 이벤트 이력에 우버튼을 클릭하면 팝업 메뉴가 열립니다.
+Right-clicking the selected event history opens a pop-up menu.
 
 ![](../../_assets/log/evlog-text-copy.png) 
 
-*	셀 텍스트 복사 : 선택한 행, 열의 텍스트를 클립보드에 복사합니다.
-*	행 텍스트 복사 : 선택한 행의 모든 열의 텍스트를 클립보드에 복사합니다. 각 열의 텍스트들은 `|` 문자로 구분됩니다.
+*	Copy Cell Text: Copies the text from the selected row and column to the clipboard.
+*	Copy Row Text: Copies the text from all columns in the selected row to the clipboard. The text from each column is separated by the `|` character.

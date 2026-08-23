@@ -1,2 +1,2 @@
-﻿# 5. 제어기 이력 확인
+﻿# 5. Check Robot Controller's Log
 

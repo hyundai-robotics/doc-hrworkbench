@@ -1,100 +1,102 @@
-# 5.1.1 이벤트 이력 모니터링 창
+# 5.1.1 Event log monitoring window
 
-하단에 `이벤트 이력 – RC`와 `이벤트 이력 – PC`의 2개의 탭을 볼 수 있습니다.
-`이벤트 이력 – RC`는 ${cont_model} 제어기가 이더넷으로 연결된 상태에서 제어기 내의 이벤트 이력과 새로 발생하는 이벤트들을 모니터링하는 창입니다.
-`이벤트 이력 – PC`는 PC경로의 `log/` 폴더에 있는 이벤트 이력 파일들을 읽어들여 보여주는 창입니다. (${cont_model} 제어기 V60.05-04 및 이후 버전에서 지원됩니다.)
+At the bottom, you can see two tabs: `Event Log – RC` and `Event Log – PC`.
 
-이 창은 ${cont_model}의 티치펜던트에서 제공하는 U/I와 유사한 기능을 제공합니다. 이벤트 이력들은 발생 시점의 역순으로 표시되며, 새로 발생한 이벤트들은 노란 바탕색으로 표시됩니다.
+`Event Log – RC` is a window that monitors the event log in the controller and the newly occurring events in the ${cont_model}  controller connected via Ethernet.
+
+`Event Log – PC` is a window that reads and displays event log files in the `log/` folder of the PC path. (Supported in ${cont_model} Controller V60.05-04 and later versions.)
+
+This window provides the similar functions as those of the U/I provided by ${cont_model}'s teach pendant. New events will be highlighted in yellow.
 
 ![](../../_assets/log/evlog01.png)
 
 
-창의 상단에는 이벤트 타입 필터 버튼들이 있으며, 눌려있는 타입의 이벤트만 표시됩니다. 가령 위 그림에서는 에러(E)와 경고(W), 알림(N) 타입만 표시되고 있습니다. (필터 버튼 조작 후엔 필터 우측의 업데이트 버튼(<img src="../../_assets/log/evlog-bt-update.png">)을 클릭해야 화면이 갱신됩니다.)
+At the top of the window are event type filter buttons, displaying only the pressed type of events. For example, only the types of errors (E), warnings (W), and alerts (N) are displayed in the figure above.  (After adjusting the filter buttons, click the Update button (<img src="../../_assets/log/evlog-bt-update.png">) to the right of the filters to refresh the screen.)
 
 <table>
 <tr>
-  <th>분류</th>
+  <th>Category</th>
   <th>U/I</th>
-  <th>설명</th>
+  <th>Description</th>
 </tr>
 <tr>
-	<td rowspan=9>필터</td>
-  <td>전부</td>
-  <td>모든 이력 종류 켜기 혹은 끄기 (토글)</td>
+	<td rowspan=9>Filter</td>
+  <td>All</td>
+  <td>Turn (toggle) on or off all types of logs.</td>
 </tr>
 <tr>
   <td>E (Error)</td>
-  <td>에러 이력 표시</td>
+  <td>Display the error log.</td>
 </tr>
 <tr>
   <td>W (Warning)</td>
-  <td>경고 이력 표시</td>
+  <td>Display the warning log.</td>
 </tr>
 <tr>
   <td>N (Notice)</td>
-  <td>알림 이력 표시</td>
+  <td>Display the notice log.</td>
 </tr>
 <tr>
   <td>ST (Start/Stop)</td>
-  <td>기동/정지 이력 표시</td>
+  <td>Display the start/stop logs.</td>
 </tr>
 <tr>
   <td>P (Periodic)</td>
-  <td>주기적 상태 이력 표시</td>
+  <td>Display the periodic state log.</td>
 </tr>
 <tr>
   <td>OP (Operation)</td>
-  <td>조작 이력 표시</td>
+  <td>Display the operation log.</td>
 </tr>
 <tr>
   <td>IO (I/O)</td>
-  <td>I/O 이력 표시</td>
+  <td>Display the I/O logs.</td>
 </tr>
 <tr>
   <td>H (History)</td>
-  <td>실행 이력 표시</td>
+  <td>Display the execution history.</td>
 </tr>
 <tr>
-  <td>업데이트</td>
+  <td>Update</td>
   <td><img src="../../_assets/log/evlog-bt-update.png"></td>
-  <td>선택된 필터 적용</td>
+  <td>Apply the selected filters</td>
 </tr>
 <tr>
   <td></td>
   <td><img src="../../_assets/log/evlog-cb-cnt.png"></td>
-  <td>창에 몇 개의 이력을 표시할 지 선택한 후, 화면 갱신</td>
+  <td>Select the number of logs to be displayed on the window and refresh the screen.</td>
 </tr>
 <tr>
-  <td>다시 로드 후 업데이트</td>
+  <td>Reload & update</td>
   <td><img src="../../_assets/log/evlog-bt-update.png"></td>
-  <td>제어기 혹은, 파일로부터 이력을 다시 읽어 테이블에 표시.</td>
+  <td>Reload events from the controller or files, and display on the table.</td>
 </tr>
 <tr>
-  <td rowspan=2><img src="../../_assets/log/bt-dot3.png"><br>(팝업 메뉴)</td>
-  <td>이력 파일들로 저장</td>
-  <td>제어기 메모리에 쌓인 현재까지의 이력들을 제어기의 log 파일로 저장.</td>
+  <td rowspan=2><img src="../../_assets/log/bt-dot3.png"><br>(Pop-up menu)</td>
+  <td>Save to log files</td>
+  <td>Save the logs that have been accumulated in the controller’s memory as log files in the controller.</td>
 </tr>
 <tr>
-  <td>이력 파일들 클리어</td>
-  <td>제어기의 메모리와 log 파일의 이력들을 모두 클리어.</td>
+  <td>Clear log files</td>
+  <td>Clear all the logs both in the controller’s memory and in the log files.</td>
 </tr>
 <tr>
   <td rowspan=2></td>
   <td><img src="../../_assets/log/bt-lock.png"></td>
-  <td>새로운 이력 모니터링을 중단</td>
+  <td>Stop monitoring a new log.</td>
 </tr>
 <tr>
   <td><img src="../../_assets/log/bt-trash.png"></td>
-  <td>이력 창의 항목들을 클리어</td>
+  <td>Clear the items in the Event Log window.</td>
 </tr>
 <tr>
   <td rowspan=2></td>
   <td><img src="../../_assets/log/bt-aux.png"></td>
-  <td>이벤트 보조 데이터 창 열기</td>
+  <td>Open auxiliary data window.</td>
 </tr>
 <tr>
   <td><img src="../../_assets/log/bt-scope.png"></td>
-  <td>스코프 열기</td>
+  <td>Open scope.</td>
 </tr>
 
 </table>

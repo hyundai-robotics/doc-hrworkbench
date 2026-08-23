@@ -1,78 +1,82 @@
-# 5.3.3 그래프의 조작
+# 5.3.3 Graph Operation
 
 <table>
 <tr>
-  <th>버튼</th>
-  <th>기능</th>
-  <th>그래프 상에서의 조작 법</th>
+  <th>Button</th>
+  <th>Function</th>
+  <th>Operation on Graph</th>
 </tr>
 <tr>
   <td><img src="../../_assets/log/bt-scopelog-adddel.png"></td>
-  <td>그래프를 추가하거나 선택된 그래프를제거합니다.</td>
+  <td>Add a graph or remove selected graph.</td>
   <td></td>
 </tr>
 <tr>
   <td><img src="../../_assets/log/bt-scopelog-field.png"></td>
-  <td>항목(필드) 선택 창을 엽니다.</td>
+  <td>Open Select Fields window.</td>
   <td><img src="../../_assets/log/scopelog07.png"></td>
 </tr>
 <tr>
   <td><img src="../../_assets/log/bt-scopelog-arrow.png"></td>
-  <td>normal 커서 모드를 선택합니다.<br>(마커 이동)</td>
+  <td>Select Normal Cursor mode.<br>(For moving markers)
+</td>
   <td></td>
 </tr>
 <tr>
   <td><img src="../../_assets/log/bt-scopelog-zoom-t.png"></td>
-  <td>T(시간) 축으로 영역을 선택하여 확대합니다.</td>
-  <td>마우스 좌 버튼 누른 채 드래그하여 확대할 영역 선택</td>
+  <td>Select the area on the T(time) axis to zoom in.</td>
+  <td>Press the mouse left button, and drag to select the area to zoom-in.</td>
 </tr>
 <tr>
   <td><img src="../../_assets/log/bt-scopelog-zoom-yt.png"></td>
-  <td>Y(수직) 축, T(시간) 축으로 영역을 선택하여 확대합니다.</td>
-  <td>마우스 좌 버튼 누른 채 드래그하여 확대할 영역 선택</td>
+  <td>Select the area on the Y(vertical), T(time) axes to zoom in.</td>
+  <td>Press the mouse left button, and drag to select the area to zoom-in.</td>
 </tr>
 <tr>
   <td><img src="../../_assets/log/bt-scopelog-zoom-out.png"></td>
-  <td>확대하기 이전 상태로 한 단계 축소합니다.</td>
+  <td>Zoom out to the state one step before zoom-in.</td>
   <td></td>
 </tr>
 <tr>
   <td><img src="../../_assets/log/bt-scopelog-pan-t.png"></td>
-  <td>확대된 상태에서 T(시간) 축으로 이동(pan)합니다.</td>
-  <td>마우스 좌 버튼 누른 채 좌우 이동</td>
+  <td>In the zoomed-in state, pan to the T(time) axis.</td>
+  <td>Press the mouse left button, and drag left and right.</td>
 </tr>
 <tr>
   <td><img src="../../_assets/log/bt-scopelog-pan-yt.png"></td>
-  <td>확대된 상태에서 Y(수직) 축, T(시간) 축으로 이동(pan)합니다.</td>
-  <td>마우스 좌 버튼 누른 채 상하좌우 이동</td>
+  <td>In the zoomed-in state, pan to the Y(vertical), T(time) axes.</td>
+  <td>Press the mouse left button, and drag up, down, left and right.</td>
 </tr>
 <tr>
   <td><img src="../../_assets/log/bt-scopelog-marker.png"></td>
-  <td>마커(marker) 테이블을 열고 닫습니다. (토글)</td>
+  <td>Open and close the marker table. (toggle)</td>
   <td></td>
 </tr>
 <tr>
   <td><img src="../../_assets/log/bt-scope-csv2.png"></td>
-  <td>.csv 파일로 저장합니다.</td>
+  <td>Export to .csv file.</td>
   <td></td>
 </tr>
 </table>
 
 ------------------
 
-하단에 그래프를 하나 더 추가해 봅시다.
+Let's add another graph at the bottom.
 
-<img src="../../_assets/log/bt-scopelog-add.png"> 버튼을 클릭하면 하단에 그래프가 하나 더 추가됩니다. 하단 그래프의 녹색 테두리는 현재 선택된 그래프임을 의미합니다. (normal 커서로 그래프 표면을 좌 클릭하여 선택할 수 있습니다.)
+If you click the <img src="../../_assets/log/bt-scopelog-add.png"> button, another graph is added at the bottom. The green border on the bottom graph means that the graph is currently selected (you can select it by left-clicking on the surface of the graph with the normal cursor)
+
 
 ![](../../_assets/log/scopelog11.png)
 
-<img src="../../_assets/log/bt-scopelog-field.png"> 버튼을 클릭한 후, dqm[0]~dqm[2]를 체크하여 1~3축의 속도 그래프를 함께 표시해봅시다.
+Click the <img src="../../_assets/log/bt-scopelog-field.png"> button and check dqm[0]~dqm[2] to display a velocity graph of 1~3 axes together.
+
 
 ![](../../_assets/log/scopelog12.png)
 
-<img src="../../_assets/log/bt-scopelog-zoom-yt.png"> 를 클릭한 후 그래프 일부를 드래그하여 확대해 봅니다.
+Click <img src="../../_assets/log/bt-scopelog-zoom-yt.png"> and drag some area on the graph to zoom in.
 
 ![](../../_assets/log/scopelog13.png)
 ![](../../_assets/log/scopelog14.png)
 
-<img src="../../_assets/log/bt-scopelog-pan-yt.png"> 를 클릭한 후 그래프에 마우스 좌버튼으로 드래그하면 Y(값)축과 T(시간)축으로 이동(pan)할 수 있습니다. 두 개의 그래프는 T(시간)축이 항상 동기화되어 이동합니다.
+
+Click <img src="../../_assets/log/bt-scopelog-pan-yt.png"> and drag it to the graph with the left mouse button to pan the Y and T axes. The two graphs are always moved in synchronization with the T (time) axis.

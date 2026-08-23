@@ -1,7 +1,8 @@
-# 5.2.1. 포즈데이터 (aux.pose)
+# 5.2.1. Pose Data (aux.pose)
 
-에러/경고/기동/정지 이벤트 행을 클릭하면, 이벤트 발생 시점의 프로그램카운터와 각 축 값(mm|deg)가 표시됩니다.
-프로그램카운터와 포즈데이터 보조 데이터는 에러와 경고 이벤트에만 기록되기 때문에, 다른 종류의 이벤트 행을 클릭하면 데이터가 희미하게 표시됩니다. 이는 해당 이벤트 바로 전에 기록된 에러/경고/기동/정지 이벤트의 보조데이터를 그대로 보여주는 것으로서 정확하지 않을 수 있습니다.
+When you click the Error/Warning/Start/Stop event row, the program counter at the time of the event and the value of each axis (mm|deg) are displayed.
+
+Because program counters and pose auxiliary data are recorded only on error and warning events, when you click on rows of different types of events, the data are dimly displayed. This indicates that it is the data of error/warning/start/stop event recorded just before that event, and may not be accurate.
 
 
 ![](../../_assets/log/evlog-aux-pose1.png)

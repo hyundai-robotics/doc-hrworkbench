@@ -1,64 +1,64 @@
-# 5.3.2 스코프 열기
+# 5.3.2 Open scope
 
 ![](../../_assets/log/scopelog02.png)
 
-중대 에러나 경고 이벤트 행을 선택하고 우상단의 <img src="../../_assets/log/bt-scope.png"> 버튼을 클릭하면 스코프 창이 열립니다.
+Select a row of critical errors or warning events and click the <img src="../../_assets/log/bt-scope.png"> button at the top right to open the scope window.
 
-(해당 이벤트 시점의 스코프 이력 파일이 없으면 열리지 않습니다.)
+(If you do not have a scope log file at the time of the event, it will not open.)
 
-(탐색 창의 `log/` 폴더의 스코프 이력 항목을 더블클릭해서 열 수도 있습니다.)
+(You can also double-click the scope log item in the `log/` folder in the explorer window.)
 
 ![](../../_assets/log/scopelog03.png)
 
-좌상단의 <img src="../../_assets/log/bt-scopelog-field.png"> 버튼을 클릭하면, 필드(항목) 선택 창이 열립니다.
+Click the <img src="../../_assets/log/bt-scopelog-field.png"> button in the upper left corner to open a field (item) selection window.
 
 ![](../../_assets/log/scopelog04.png)
 
-필드 선택 창의 각 항목은 이름과 단위, 설명을 표시하고 있습니다.
+Each item in the field selection window displays its name, unit, and description.
 
 
 <table>
 <tr>
-  <th>버튼</th>
-  <th>기능</th>
-  <th>비고</th>
+  <th>Button</th>
+  <th>Function</th>
+  <th>Misc.</th>
 </tr>
 <tr>
   <td><img src="../../_assets/log/bt-scope-trash.png"></td>
-  <td>모든 체크를 해제합니다.</td>
+  <td>Uncheck all.</td>
   <td></td>
 </tr>
 <tr>
   <td><img src="../../_assets/log/bt-scope-check.png"></td>
-  <td>선택한 행들을 한번에 체크합니다.<br>
-		(마우스 좌버튼으로 드래그하거나, Ctrl+좌버튼, 혹은 Shift+좌버튼으로 여러 항목 행을 선택할 수 있습니다.)
+  <td>Check all selected rows.<br>
+    (You can select several rows by dragging with mouse left button, or click with ctrl+left / shift+left button.)
 	</td>
   <td><img src="../../_assets/log/scopelog07.png"></td>
 </tr>
 <tr>
   <td><img src="../../_assets/log/bt-scope-uncheck.png"></td>
-  <td>선택한 행들을 한번에 체크 해제합니다.</td>
+  <td>Uncheck all selected rows.</td>
   <td></td>
 </tr>
 <tr>
   <td><img src="../../_assets/log/bt-scope-csv.png"></td>
-  <td>.csv 파일로 익스포트(export)합니다.</td>
-  <td>외부 소프트웨어에서 활용하기 위한 용도입니다.</td>
+  <td>Export to .csv file.</td>
+  <td>To use in external software.</td>
 </tr>
 <tr>
   <td><img src="../../_assets/log/bt-scope-ok.png"></td>
-  <td>필드 선택 창을 닫고, 체크된 항목의 그래프를 표시합니다.</td>
+  <td>Close the field selection window and display the graph of the checked items.</td>
   <td></td>
 </tr>
 </table>
 
-가령 qr[0]~qr[5]는 단위가 mm 혹은 rad이며, 1~6축의 `joint position (축 위치)` 데이터입니다. 
+For example, qr[0]~qr[5]'s unit is mm or rad, and they are the `joint position` data on 1 to 6 axes.
 
-충돌이 발생했을 때의 1축~3축의 데이터를 확인하고자 한다면 qr[0]~qr[2]를 체크한 후 `[확인]` 버튼을 클릭합니다. 
+Check qr[0]~qr[2] and click the `OK` button if you want to check the data on the 1st to 3rd axes at the time of robot-collision.
 
 ![](../../_assets/log/scopelog05.png)
 
 
-몇 초 후 그래프가 열립니다.
+After a few seconds, the graph opens.
 
 ![](../../_assets/log/scopelog06.png)

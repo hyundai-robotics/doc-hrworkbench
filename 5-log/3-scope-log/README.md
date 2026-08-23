@@ -1,3 +1,3 @@
-﻿# 5.3 스코프 이력 (Scope log)
+﻿# 5.3 Scope log
 
-(본 기능은 ${cont_model} 제어기 V60.05-04 및 이후 버전에서 지원됩니다.)
+(Supported in ${cont_model} Controller V60.05-04 and later versions.)

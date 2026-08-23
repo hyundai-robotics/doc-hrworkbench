@@ -1,38 +1,38 @@
-﻿# 5.2 보조 데이터
+﻿# 5.2 Auxiliary Data
 
-<img src="../../_assets/log/bt-aux.png"> 버튼을 클릭하면 총 5가지의 이벤트 보조 데이터 창들이 열립니다.
+If you click the <img src="../../_assets/log/bt-aux.png"> button, five event aux. data windows will be open.
 
 ![](../../_assets/log/evlog-aux-panel.png) 
 
 <table>
 <tr>
-  <th>panel명</th>
-  <th>내용</th>
-  <th>지원 이벤트 타입</th>
+  <th>panel name</th>
+  <th>contents</th>
+  <th>supported event type</th>
 </tr>
 <tr>
   <td>aux.pose</td>
-  <td>프로그램카운터와 포즈 데이터</td>
-  <td>에러/경고/기동/정지</td>
+  <td>program counter and pose data</td>
+  <td>error/warning/start/stop</td>
 </tr>
 <tr>
   <td>aux.sin</td>
-  <td>시스템입력</td>
-  <td>에러/경고/기동/정지</td>
+  <td>system input</td>
+  <td>error/warning/start/stop</td>
 </tr>
 <tr>
   <td>aux.sout</td>
-  <td>시스템출력</td>
-  <td>에러/경고/기동/정지</td>
+  <td>system output</td>
+  <td>error/warning/start/stop</td>
 </tr>
 <tr>
   <td>aux.din</td>
-  <td>범용입력</td>
-  <td>주기적 상태/IO</td>
+  <td>general input</td>
+  <td>periodic state/IO</td>
 </tr>
 <tr>
   <td>aux.dout</td>
-  <td>범용출력</td>
-  <td>주기적 상태/IO</td>
+  <td>general output</td>
+  <td>periodic state/IO</td>
 </tr>
 </table>

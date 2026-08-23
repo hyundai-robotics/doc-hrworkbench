@@ -1,2 +1,2 @@
-﻿# 5.1 제어기 이벤트 이력 모니터링
+﻿# 5.1 Monitor Event Logs in the Controller
 

@@ -1,11 +1,12 @@
-# 5.2.3 범용 입출력 (aux.din/dout)
+# 5.2.3 General input/output (aux.din/dout)
 
-주기적 상태나 IO 이벤트 행을 클릭하면, 범용 입력과 출력이 표시됩니다.
+When you click the Periodic State/IO event row, the general input and output are displayed.
 
 ![](../../_assets/log/evlog-aux-dout.png)
 
 
-상단의 콤보박스로, 표시할 신호 그룹 `fb0~fb9`을 선택할 수 있습니다. IO 이벤트는 임의의 `dio`값이 변경될 때에만 해당 변경(differential) 정보만 담아 발생합니다. 그리고, 주기적 상태 이벤트는 ${cont_model} 제어기에서 1분마다 `fb` 그룹 1개씩만 전체 `dio` 정보를 담아 발생합니다. HRWorkBench는 이 정보들을 누적하여 각 이벤트 행에 대해 범용 입출력 창에서 모든 `fb` 그룹의 모든 `dio` 정보를 보여줍니다.
-따라서, `dio` 정보가 충분히 누적되지 않은 과거의 이벤트 행을 클릭하면 아래 그림과 같이 데이터가 표시되지 않고 `?` 기호로 나타납니다.
+Using the combo box at the top, you can select the signal groups `fb0 to fb9` to be displayed. IO events occur only with the differential information when any `dio` value changes. In addition, the periodic state event occurs with only one `fb` group's full `dio` information per minute in the ${cont_model} controller. HRWorkBench accumulates this information to show all the `dio` information in all `fb` groups in the general input/output window for each event row.
+
+Therefore, if you click on a row of older events where the `dio` information is not accumulated enough, the data is not displayed and but just `?` symbol, as below.
 
 ![](../../_assets/log/evlog-aux-dout2.png)
