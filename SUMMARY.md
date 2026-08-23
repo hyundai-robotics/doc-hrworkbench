@@ -1,6 +1,6 @@
 ﻿# Table of contents
 
-* [${cont_model} 제어기 기능설명서 - HRWorkBench](README.md)
+* [Hi6/Hi7 제어기 기능설명서 - HRWorkBench](README.md)
 
 * [이 설명서에 대하여](0-about-this-manual/README.md)
   * [사전 주의사항](0-about-this-manual/precautions.md)

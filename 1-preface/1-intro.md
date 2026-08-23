@@ -1,6 +1,6 @@
 ﻿## 1.1 HRWorkBench의 소개
 
-HRWorkBench는 HD현대로보틱스 ${cont_model} 제어기의 교시를 지원하기 위한 윈도우PC용 소프트웨어입니다. HRWorkBench는 이더넷 통신으로 연결된 ${cont_model} 제어기에 대해 아래와 같은 기능들을 지원합니다.  
+HRWorkBench는 HD현대로보틱스 Hi6/Hi7 제어기의 교시를 지원하기 위한 윈도우PC용 소프트웨어입니다. HRWorkBench는 이더넷 통신으로 연결된 Hi6/Hi7 제어기에 대해 아래와 같은 기능들을 지원합니다.  
 (Hi5a 제어기에서 사용하던 HRView, HRHistoryViewer 소프트웨어의 후속 제품입니다.)
 
 | 구  분 | 설   명 |
