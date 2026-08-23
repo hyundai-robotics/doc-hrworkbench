@@ -1,2 +1,2 @@
-﻿# 6.2. 제어기 설정의 포팅
+﻿# 6.2. Porting Controller Settings
 

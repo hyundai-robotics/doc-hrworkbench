@@ -1,2 +1,2 @@
-﻿# 6. 제어기 설정의 확인과 포팅
+﻿# 6. Checking and Porting Controller Settings
 
