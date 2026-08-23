@@ -1,10 +1,10 @@
-﻿# 4.1.5 찾기/바꾸기/찾아가기
+﻿# 4.1.5 Find, Replace, and Go To Lines
 
-주 메뉴의 '편집 – 찾기와 바꾸기'를 선택하거나 단축키 Ctrl+F 혹은 Ctrl+F3을 눌러 찾기/바꾸기 대화상자를 열 수 있습니다. 특정한 텍스트를 선택한 상태였으면, 그 텍스트가 자동으로 '찾을 내용'에 입력됩니다. 
+You can open the Find/Replace dialog box by selecting `Edit - Find and Replace` in the main menu or by pressing the shortcut key `Ctrl+F` or `Ctlr+F3.` If a specific text has been selected, the text will be automatically inputted into `Find`. 
  
 ![](../../_assets/find-replace/find01.png)
 
-대화상자의 각 옵션의 기능은 아래와 같습니다.
+The functions of the individual options in the dialog box are shown below.
 
 <table>
 <tr>
@@ -12,34 +12,33 @@
   <th colspan=2>기능</th>
 </tr>
 <tr>
-  <td rowspan=2>찾는 위치</td>
-  <td>현재 문서</td>
-  <td>현재 선택한 job 편집창 내에서만 수행.</td>
+  <td rowspan=2>Look In</td>
+  <td>Current Document</td>
+  <td>The function will be performed within the currently selected window. </td>
 </tr>
 <tr>
-  <td>현재 프로젝트</td>
-  <td>프로젝트의 PC 노드 아래의 모든 job에 대해 수행.</td>
+  <td>Current Project</td>
+  <td>The function will be performed for all jobs under the PC node of a project.</td>
 </tr>
 <tr>
-  <td>대/소문자 구분</td>
-  <td colspan=2>선택하면 대소문자를 구분</td>
+  <td>Case Sensitive</td>
+  <td colspan=2>Selecting this function makes it possible to distinguish between upper and lower cases.</td>
 </tr>
 <tr>
-  <td>단어 단위로</td>
-  <td colspan=2>선택하면 완전한 단어에 대해서만 검색</td>
+  <td>Whole Word</td>
+  <td colspan=2>Selecting this makes it possible to perform searches only for a complete word.</td>
 </tr>
 </table>
 
 
-`[이전 찾기]` 혹은 `[다음 찾기]` 버튼을 클릭하면 이전 혹은 다음 일치하는 문자열로 커서 선택이 이동합니다. `[바꾸기]` 버튼을 누르면 현재 선택된 문자열을 '바꿀 내용:'에 입력된 문자열로 교체한 후, 다음 일치하는 문자열로 이동합니다.
-`[모두 찾기]` 버튼을 클릭하면, `찾는 위치`에 지정한 범위 전체를 대상으로 검색하여, 하단의 `찾기 결과` 창에 검색된 항목들을 경로파일명(행번호): 문자열의 형식으로 열거해줍니다. 특정한 항목에 대해 더블클릭하면, 해당하는 파일이 열리면서, 일치한 위치로 커서가 이동합니다.
-(`찾기/바꾸기` 대화상자를 닫은 상태에서도, `Shift+F3 (이전 찾기)`과 `F3 (다음 찾기)` 단축키를 사용할 수 있습니다.)
+Clicking the `Find prev.` or `Find next` button allows the cursor to move to the prev. or next matching string. Clicking the `Replace` button allows the currently selected string to be replaced with the string inputted under Replace with and then allows the cursor to move to the next matching string.
+Clicking the `Find all` button searches for the entire range designated under `Look In`, and lists the searched items in the `Find Results` window at the bottom in the form of its path file name (line number): string. When you double-click on a specific item, the relevant file will be opened, and the cursor will move to the matching position.
+(Even when the `Find/Replace` dialog box is closed, you can use the shortcut keys `Shift+F3 (Find Previous)` and `F3 (Find Next)`.)
 
 ![](../../_assets/find-replace/find02.png)
 
 
-`[모두 바꾸기]` 버튼을 클릭하면, `[찾는 위치]`에 지정한 범위 전체를 대상으로 검색하여, 일치한 문자열을 `바꿀 내용:`에 입력된 문자열로 교체하면서, 하단의 `찾기 결과` 창에 검색된 항목들을 열거해줍니다.
-
-주 메뉴의 `Job – 줄 이동`을 선택하거나 단축키 `Ctrl+G`를 눌러 찾아가기 대화상자를 열 수 있습니다. 행 번호를 입력하면 해당 행 번호로 커서가 이동합니다.
+Clicking the `Replace all` button searches the entire range designated in `Look In` and replaces the matching string with the string inputted in `Replace with`. Moreover, this function will list the searched items in the `Find Results` window at the bottom. 
+You can select `Job - Go To` in the main menu or press the shortcut key `Ctrl+G` to open the Go To Line dialogue box. When you input a line number, the cursor will move to the line number. 
 
 ![](../../_assets/find-replace/dlg-goto.png)

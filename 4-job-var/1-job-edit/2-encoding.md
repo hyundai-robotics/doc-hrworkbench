@@ -1,10 +1,11 @@
-﻿# 4.1.2 인코딩 변환하여 다시 불러오기
+﻿# 4.1.2 Reloading after Converting Encoded Job Files
 
-job 파일을 열었을 때, 영어가 아닌 글자(한글, 중문 등) 주석이나 문자열이 깨져 보이는 경우가있습니다. ${cont_model}제어기의 job파일은 utf-8 인코딩으로 저장되어야 하는데, 다른 인코딩(가령, EUC-KR이나 GB2312)으로 저장되어 있으면 HRWorkBench와 티치펜던트에 제대로 표시되지 않습니다.
+When a job file is opened, non-English characters (Korean, Chinese, etc.), comments, or strings may appear broken. The job file of the ${cont_model} controller should be saved in utf-8 encoding, but the file will not be displayed properly in HRWorkBench and teach pendant if the file is saved with a different type of encoding (EUC-KR, GB2312). 
 
 ![](../../_assets/job-edit/encoding1.png) 
 
-가령 job 파일이 확장완성형으로 되어 있다면 주 메뉴의 `Job – 인코딩 : 다른 언어로 다시 불러오기 – 한국어(ko-KR)`을 선택하십시오. job 파일이 utf-8로 변환되어 편집 창에 열리므로 글자가 제대로 표시될 것입니다. 이 상태에서 저장하면 utf-8 인코딩 파일로 저장됩니다.
-(영어만으로 작성된 파일의 경우, ascii 파일과 utf-8파일은 동일하므로, 이러한 조작이 필요없습니다.)
+
+For example, if the job file is encoded in an extended complete type, select `Job - Encoding: Reload from - Korean` in the main menu. The job file will be converted to a utf-8 encoding and opened in the Edit window, and the text will now be displayed correctly. When saved in this state, the file will be saved as a utf-8 encoding file.
+(The ascii file and utf-8 file are the same for a file only written in English, so this operation will not be necessary.)
 
 ![](../../_assets/job-edit/encoding2.png) 

@@ -1,3 +1,3 @@
-﻿# 4.1 Job 파일 편집
+﻿# 4.1 Edit Job Files
 
-PC로 복사된 job파일은 선호하는 텍스트 편집기로 편집해도 되지만, HRWorkBench도 편집기를 제공합니다.
+You can edit the job files copied to the PC with your preferred text editor, but HRWorkBench also provides an editor.

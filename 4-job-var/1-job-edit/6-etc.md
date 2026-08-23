@@ -1,3 +1,3 @@
-﻿# 4.1.6 기타 기능
+﻿# 4.1.6 Other functions
 
-*	글자 크기 조정: `ctrl+마우스 휠`을 조작하면 Job 편집 화면의 글자 크기를 크거나 작게 조정할 수 있습니다. 
+*	Font Size Adjustment: `Ctrl+mouse wheel` to change the font size in the job editor.

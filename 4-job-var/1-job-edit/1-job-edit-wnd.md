@@ -1,21 +1,19 @@
-﻿# 4.1.1 편집 창 열기와 배치
+﻿# 4.1.1 Open and Arrange Edit Windows
 
-먼저 PC로 복사된 job 파일을 열어 편집해 보겠습니다.
-탐색창의 원하는 PC측 job파일을 더블클릭하면 편집기가 열립니다. 0001.job, 0005.job, 0006.job, 0007.job의 4개의 job파일을 차례로 열어보겠습니다. 아래와 같이 마지막으로 연 0007.job의 편집 창이 공간을 채우고 있고, 파일명들은 tab에 표시되고 있습니다.
+Double-click the desired PC-side job file in the Explore pane to open the editor. Let's open four job files in sequence: 0001.job, 0005.job, 0006.job, and 0007.job. As shown below, the editor window for the last opened file, 0007.job, fills the area, with the file names displayed on the tabs.
  
 ![](../../_assets/job-edit/job-tab01.png)
 
 
-Tab을 선택하여 원하는 job을 편집할 수 있습니다. 2개의 파일을 비교하고자 할 때는 `윈도우 - 영역 나누기` 메뉴 혹은 툴 버튼으로 영역을 최대 2개로 나눌 수 있고, 한번 더 클릭하면 영역이 다시 합쳐집니다.
+You can select a tab to edit the desired job. To compare two files, you can split the area into up to two panes using the `Window - Split Area` menu or tool button. Clicking it once more will merge the areas back together.
   
 ![](../../_assets/job-edit/job-tab02.png)
 ![](../../_assets/job-edit/job-tab03.png)
 
-각 tab은 마우스 좌버튼으로 드래그하여 순서를 바꿀 수 있으며, `윈도우 - 다른 영역으로 탭 이동` 메뉴, 혹은 툴 버튼으로 다른 영역으로 옮길 수 있습니다.
-
-주 메뉴의 '윈도우' 혹은 툴 막대에서 '타일' 혹은 '캐스캐이드'를 선택하면, 영역 내에서 여러 개의 job 편집 창을 나란히 배치할 수 있습니다.
+You can reorder tabs by dragging them with the left mouse button. Alternatively, you can move a tab to another area using the `Window - Move Tab to Other Area` menu or the tool button.
+Selecting `Tile` or `Cascade` from the `Window` main menu or the toolbar allows you to arrange multiple job editor windows side by side within an area.
 
 ![](../../_assets/job-edit/job-tab04.png)
 ![](../../_assets/job-edit/job-tab05.png)
 
-편집 창은 <img src="../../_assets/job-edit/job-min.png">  버튼으로 최소화하고, <img src="../../_assets/job-edit/job-max.png"> 버튼으로 최대화 할 수 있습니다. <img src="../../_assets/job-edit/job-close.png"> 버튼을 클릭하거나 ctrl+F4를 누르면 닫힙니다.
+You can minimize the Edit window with the <img src="../../_assets/job-edit/job-min.png"> button and maximize it with the <img src="../../_assets/job-edit/job-max.png"> button. Clicking the <img src="../../_assets/job-edit/job-close.png"> button or pressing `ctrl+F4` will close the Edit window.

@@ -1,2 +1,2 @@
-﻿# 4. job과 변수의 편집
+﻿# 4. Editing Jobs and Variables
 
