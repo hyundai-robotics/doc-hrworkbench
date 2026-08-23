@@ -1,4 +1,4 @@
-# 6.2.1. Overview
+# 6.2.1 Overview
 
 For example, if you copy a specific `.json` setting file from Robot Controller A to Robot Controller B and then restart the power, the corresponding settings from Controller A can be applied identically to Controller B.
 

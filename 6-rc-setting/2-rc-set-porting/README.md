@@ -1,2 +1,2 @@
-﻿# 6.2. Porting Controller Settings
+﻿# 6.2 Porting Controller Settings
 
