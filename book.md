@@ -1,6 +1,6 @@
 ﻿
 [__SOURCE](README.md)
-# ${cont_model} Controller Function Manual - HRWorkBench
+# Hi6/Hi7 Controller Function Manual - HRWorkBench
 
 [__SOURCE](0-about-this-manual/README.md)
 # About the Manual
@@ -26,7 +26,7 @@ During the execution of a user script, logic errors or unmet execution condition
 [__SOURCE](1-preface/1-intro.md)
 ## 1.1 Introduction to HRWorkBench
 
-HRWorkBench is a Windows PC software designed for supporting the teaching of the ${cont_model} controller of HD Hyundai Robotics.  HRWorkBench supports the following functions of the ${cont_model} controller when connected through Ethernet communication.
+HRWorkBench is a Windows PC software designed for supporting the teaching of the Hi6/Hi7 controller of HD Hyundai Robotics.  HRWorkBench supports the following functions of the Hi6/Hi7 controller when connected through Ethernet communication.
 (This is the successor product of the HRView, HRHistoryViewer software used in the Hi5a controller.)
 
 | Category | Description |
@@ -99,8 +99,8 @@ You can change the user interface language by selecting 'Help - Change Language'
 [__SOURCE](2-setting/1-ethernet.md)
 # 2.1 Connect to Ethernet
 
-HRWorkBench and the ${cont_model} robot controller should be connected to the same Ethernet network.
-Suppose there are two ${cont_model} controllers that need to be connected, and let us assume that their individual IP addresses are 192.168.1.150 and 192.168.1.151. Moreover, the IP address of the PC is 192.168.1.100. (The devices connected to each other through a hub should all be in the same subnetwork, 192.168.1.XXX.)
+HRWorkBench and the Hi6/Hi7 robot controller should be connected to the same Ethernet network.
+Suppose there are two Hi6/Hi7 controllers that need to be connected, and let us assume that their individual IP addresses are 192.168.1.150 and 192.168.1.151. Moreover, the IP address of the PC is 192.168.1.100. (The devices connected to each other through a hub should all be in the same subnetwork, 192.168.1.XXX.)
 
 The IP Address Manager dialog box will be opened, as shown below, when you select `Comm - Address Manager` in the main menu of HRWorkBench or click the tool   button.
 A new input line will be added each time you click the `Append` button. After adding two lines, you need to input the name and IP address, as shown in the figure below.
@@ -117,7 +117,7 @@ Now, when you open the IP address combo box in the Comm. window, you can select 
 </div>
 
 When you press the `Connect` button, and the button turns yellow, you are now connected.
-If you are successfully connected, the Robot Controller node will appear in the Explore window on the left. Right-click the node and then click Display RC Info. in the pop-up menu. The software version of the ${cont_model} controller will be received and displayed, as shown below.
+If you are successfully connected, the Robot Controller node will appear in the Explore window on the left. Right-click the node and then click Display RC Info. in the pop-up menu. The software version of the Hi6/Hi7 controller will be received and displayed, as shown below.
 
 
 
@@ -205,7 +205,7 @@ Another way to load WorkBench files is by opening an `.hrwb` file by dragging an
 [__SOURCE](3-backup-restore/1-backup-restore.md)
 # 3.1 Back Up and Restore Files
 
-You can back up or restore the files in the ${cont_model} controller.
+You can back up or restore the files in the Hi6/Hi7 controller.
 First, press the `Connect` button to remotely connect to the controller. In the Explore window, open a pop-up menu for the `Robot Controller` node by right-clicking it, and then select `Backup all to PC`. The `Backup` dialog box will appear.
 
 
@@ -232,7 +232,7 @@ In the Explore window, open a pop-up menu for the `Robot Controller` node by rig
 Press the `Start` button after checking the target that needs to be restored. The files in the controller will be restored to the PC path, and the Completed dialog box will be displayed.
 
 {% hint style="warning" %}
-When performing the restore, the ${cont_model} controller must be in the motor-off state. When performed in the motor-on state, a 'impossible' message is output
+When performing the restore, the Hi6/Hi7 controller must be in the motor-off state. When performed in the motor-on state, a 'impossible' message is output
 {% endhint %}
 
 [__SOURCE](3-backup-restore/2-job-copy-del.md)
@@ -313,7 +313,7 @@ You can minimize the Edit window with the <img src="../../_assets/job-edit/job-m
 [__SOURCE](4-job-var/1-job-edit/2-encoding.md)
 # 4.1.2 Reloading after Converting Encoded Job Files
 
-When a job file is opened, non-English characters (Korean, Chinese, etc.), comments, or strings may appear broken. The job file of the ${cont_model} controller should be saved in utf-8 encoding, but the file will not be displayed properly in HRWorkBench and teach pendant if the file is saved with a different type of encoding (EUC-KR, GB2312). 
+When a job file is opened, non-English characters (Korean, Chinese, etc.), comments, or strings may appear broken. The job file of the Hi6/Hi7 controller should be saved in utf-8 encoding, but the file will not be displayed properly in HRWorkBench and teach pendant if the file is saved with a different type of encoding (EUC-KR, GB2312). 
 
 ![](../../_assets/job-edit/encoding1.png) 
 
@@ -427,7 +427,7 @@ Because this syntax check is executed without the actual execution of a job, it 
 
 You can remotely execute robot language statements in job files. A move statement or flow control statement is not supported. It only supports some commands can be executed individually, such as assignment statements.
 
-The global variables window in the teach pendant of the connected ${cont_model} controller should be left open to check the result.
+The global variables window in the teach pendant of the connected Hi6/Hi7 controller should be left open to check the result.
 
 The following program was created as a demonstration in the Job Edit window.
 
@@ -452,7 +452,7 @@ Clicking on `Job` in the main menu or `Run Job` in the toolbar will execute all 
 [__SOURCE](4-job-var/4-gvar-mon.md)
 # 4.4 Monitor Global Variables and Set Their Values
 
-When the connect button is pressed online, the Global Variables window displays the current global variable values. The functionality of the Global Variables window is almost identical to that of the ${cont_model} Teach Pendant (TP630). 
+When the connect button is pressed online, the Global Variables window displays the current global variable values. The functionality of the Global Variables window is almost identical to that of the Hi6/Hi7 Teach Pendant (TP630). 
 
 See the link below for instructions.
 
@@ -479,7 +479,7 @@ The global variable export function prior to v1.4.2 is superseded by this functi
 {% endhint %}
 
 The Variables window allows you to monitor global variables and set values, but has limitations in editing large lists of variables.
-Global variables are stored in `var.json` files within the ${cont_model} controller, of which predefined-variables are stored in `.csv` files. These are all text files, so you can easily edit them if you copy them to your PC.
+Global variables are stored in `var.json` files within the Hi6/Hi7 controller, of which predefined-variables are stored in `.csv` files. These are all text files, so you can easily edit them if you copy them to your PC.
 
 The method of backing up and restoring variable files is similar to job files. Select the `vars/` folder of the robot controller, or some files, and then right-click to open the pop-up menu. When the `Backup to PC` menu is selected, the Log panel displays the copy results, and the copied file names are displayed in the `PC/vars` node.
 
@@ -501,7 +501,7 @@ Variable files on the robot controller or PC can be deleted using the `Delete` p
 ![](../_assets/var-edit/var-del.png)
 
 {% hint style="warning" %}
-When restoring or deleting variables, the ${cont_model} controller must be in the Motor-Off state. When carried out in the Motor-On state, the message is displayed that it is not possible.
+When restoring or deleting variables, the Hi6/Hi7 controller must be in the Motor-Off state. When carried out in the Motor-On state, the message is displayed that it is not possible.
 {% endhint %}
 
 Double-click a variable file on your PC to open a text edit window. If you double-click the variable file on the robot controller, once it backs up it to `PC/vars/` and open the file on the PC side.
@@ -521,11 +521,11 @@ Double-click a variable file on your PC to open a text edit window. If you doubl
 
 At the bottom, you can see two tabs: `Event Log - RC` and `Event Log - PC`.
 
-`Event Log - RC` is a window that monitors the event log in the controller and the newly occurring events in the ${cont_model}  controller connected via Ethernet.
+`Event Log - RC` is a window that monitors the event log in the controller and the newly occurring events in the Hi6/Hi7  controller connected via Ethernet.
 
-`Event Log - PC` is a window that reads and displays event log files in the `log/` folder of the PC path. (Supported in ${cont_model} Controller V60.05-04 and later versions.)
+`Event Log - PC` is a window that reads and displays event log files in the `log/` folder of the PC path. (Supported in Hi6/Hi7 Controller V60.05-04 and later versions.)
 
-This window provides the similar functions as those of the U/I provided by ${cont_model}'s teach pendant. New events will be highlighted in yellow.
+This window provides the similar functions as those of the U/I provided by Hi6/Hi7's teach pendant. New events will be highlighted in yellow.
 
 ![](../../_assets/log/evlog01.png)
 
@@ -734,7 +734,7 @@ When you click the Periodic State/IO event row, the general input and output are
 ![](../../_assets/log/evlog-aux-dout.png)
 
 
-Using the combo box at the top, you can select the signal groups `fb0 to fb9` to be displayed. IO events occur only with the differential information when any `dio` value changes. In addition, the periodic state event occurs with only one `fb` group's full `dio` information per minute in the ${cont_model} controller. HRWorkBench accumulates this information to show all the `dio` information in all `fb` groups in the general input/output window for each event row.
+Using the combo box at the top, you can select the signal groups `fb0 to fb9` to be displayed. IO events occur only with the differential information when any `dio` value changes. In addition, the periodic state event occurs with only one `fb` group's full `dio` information per minute in the Hi6/Hi7 controller. HRWorkBench accumulates this information to show all the `dio` information in all `fb` groups in the general input/output window for each event row.
 
 Therefore, if you click on a row of older events where the `dio` information is not accumulated enough, the data is not displayed and but just `?` symbol, as below.
 
@@ -743,12 +743,12 @@ Therefore, if you click on a row of older events where the `dio` information is 
 [__SOURCE](5-log/3-scope-log/README.md)
 # 5.3 Scope log
 
-(Supported in ${cont_model} Controller V60.05-04 and later versions.)
+(Supported in Hi6/Hi7 Controller V60.05-04 and later versions.)
 
 [__SOURCE](5-log/3-scope-log/1-scope-log-intro.md)
 # 5.3.1 What is scope log?
 
-When a critical error or warning such as `E160 collision detection` occurs, the ${cont_model} controller stores data for required analysis such as position/speed/acceleration/status codes of each axis in a sampling period of 5ms, length of 30 seconds (25 seconds before occurrence + 5 seconds after occurrence). This is called scope log.
+When a critical error or warning such as `E160 collision detection` occurs, the Hi6/Hi7 controller stores data for required analysis such as position/speed/acceleration/status codes of each axis in a sampling period of 5ms, length of 30 seconds (25 seconds before occurrence + 5 seconds after occurrence). This is called scope log.
 The scope log is stored in the `log/` folder of the controller as a pair of `.json` and `.bin` files. (Because of the large capacity, only a certain number is saved and the old data is deleted.)
 The scope history stored in the remote robot controller and PC path is displayed in the `log/` folder of the explorer window, and the node name is the time of file storage in the form of YYYYMMDD_HHMMSS.
 

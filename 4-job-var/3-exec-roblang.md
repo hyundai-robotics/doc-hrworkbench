@@ -2,7 +2,7 @@
 
 You can remotely execute robot language statements in job files. A move statement or flow control statement is not supported. It only supports some commands can be executed individually, such as assignment statements.
 
-The global variables window in the teach pendant of the connected ${cont_model} controller should be left open to check the result.
+The global variables window in the teach pendant of the connected Hi6/Hi7 controller should be left open to check the result.
 
 The following program was created as a demonstration in the Job Edit window.
 

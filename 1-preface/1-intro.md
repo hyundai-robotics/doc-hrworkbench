@@ -1,6 +1,6 @@
 ﻿## 1.1 Introduction to HRWorkBench
 
-HRWorkBench is a Windows PC software designed for supporting the teaching of the ${cont_model} controller of HD Hyundai Robotics.  HRWorkBench supports the following functions of the ${cont_model} controller when connected through Ethernet communication.
+HRWorkBench is a Windows PC software designed for supporting the teaching of the Hi6/Hi7 controller of HD Hyundai Robotics.  HRWorkBench supports the following functions of the Hi6/Hi7 controller when connected through Ethernet communication.
 (This is the successor product of the HRView, HRHistoryViewer software used in the Hi5a controller.)
 
 | Category | Description |

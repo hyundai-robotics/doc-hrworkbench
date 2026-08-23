@@ -1,6 +1,6 @@
 ﻿# 4.1.2 Reloading after Converting Encoded Job Files
 
-When a job file is opened, non-English characters (Korean, Chinese, etc.), comments, or strings may appear broken. The job file of the ${cont_model} controller should be saved in utf-8 encoding, but the file will not be displayed properly in HRWorkBench and teach pendant if the file is saved with a different type of encoding (EUC-KR, GB2312). 
+When a job file is opened, non-English characters (Korean, Chinese, etc.), comments, or strings may appear broken. The job file of the Hi6/Hi7 controller should be saved in utf-8 encoding, but the file will not be displayed properly in HRWorkBench and teach pendant if the file is saved with a different type of encoding (EUC-KR, GB2312). 
 
 ![](../../_assets/job-edit/encoding1.png) 
 

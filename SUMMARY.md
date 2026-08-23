@@ -1,6 +1,6 @@
 ﻿# Table of contents
 
-* [${cont_model} Controller Function Manual - HRWorkBench](README.md)
+* [Hi6/Hi7 Controller Function Manual - HRWorkBench](README.md)
 
 * [About the Manual](0-about-this-manual/README.md)
   * [Precautions](0-about-this-manual/precautions.md)

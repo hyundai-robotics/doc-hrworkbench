@@ -1,6 +1,6 @@
 ﻿# 3.1 Back Up and Restore Files
 
-You can back up or restore the files in the ${cont_model} controller.
+You can back up or restore the files in the Hi6/Hi7 controller.
 First, press the `Connect` button to remotely connect to the controller. In the Explore window, open a pop-up menu for the `Robot Controller` node by right-clicking it, and then select `Backup all to PC`. The `Backup` dialog box will appear.
 
 
@@ -27,5 +27,5 @@ In the Explore window, open a pop-up menu for the `Robot Controller` node by rig
 Press the `Start` button after checking the target that needs to be restored. The files in the controller will be restored to the PC path, and the Completed dialog box will be displayed.
 
 {% hint style="warning" %}
-When performing the restore, the ${cont_model} controller must be in the motor-off state. When performed in the motor-on state, a 'impossible' message is output
+When performing the restore, the Hi6/Hi7 controller must be in the motor-off state. When performed in the motor-on state, a 'impossible' message is output
 {% endhint %}

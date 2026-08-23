@@ -1,12 +1,13 @@
 ﻿{
     "langCode": "en",
-    "series": "${cont_model} Controller",
+    "series": "Hi6/Hi7 Controller",
     "title": "Function Manual - HRWorkBench",
     "publisher": "HD Hyundai Robotics",
     "tocTitle": "Table of Contents",
     "tocTitleElements": "[ \"h1\", \"h2\" ]",
-    "docId": "${cont_model:upper}HRWORKBENCH_EN_001",
+    "docId": "HRWORKBENCH_EN_001",
     "references": [
-        { "title" : "${cont_model} Controller Operation Manual - TP630", "id" : "${cont_model:upper}OPTP630_EN_001" }
+        { "title" : "Hi6 Controller Operation Manual - TP630", "id" : "HI6OPTP630_EN_001" },
+        { "title" : "Hi7 Controller Operation Manual - TP630", "id" : "HI7OPTP630_EN_001" }
     ]
 }

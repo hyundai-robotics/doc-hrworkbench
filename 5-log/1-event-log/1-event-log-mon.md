@@ -2,11 +2,11 @@
 
 At the bottom, you can see two tabs: `Event Log - RC` and `Event Log - PC`.
 
-`Event Log - RC` is a window that monitors the event log in the controller and the newly occurring events in the ${cont_model}  controller connected via Ethernet.
+`Event Log - RC` is a window that monitors the event log in the controller and the newly occurring events in the Hi6/Hi7  controller connected via Ethernet.
 
-`Event Log - PC` is a window that reads and displays event log files in the `log/` folder of the PC path. (Supported in ${cont_model} Controller V60.05-04 and later versions.)
+`Event Log - PC` is a window that reads and displays event log files in the `log/` folder of the PC path. (Supported in Hi6/Hi7 Controller V60.05-04 and later versions.)
 
-This window provides the similar functions as those of the U/I provided by ${cont_model}'s teach pendant. New events will be highlighted in yellow.
+This window provides the similar functions as those of the U/I provided by Hi6/Hi7's teach pendant. New events will be highlighted in yellow.
 
 ![](../../_assets/log/evlog01.png)
 

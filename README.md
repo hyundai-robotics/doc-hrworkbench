@@ -1,1 +1,1 @@
-﻿# ${cont_model} Controller Function Manual - HRWorkBench
+﻿# Hi6/Hi7 Controller Function Manual - HRWorkBench

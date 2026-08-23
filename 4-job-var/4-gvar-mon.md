@@ -1,6 +1,6 @@
 ﻿# 4.4 Monitor Global Variables and Set Their Values
 
-When the connect button is pressed online, the Global Variables window displays the current global variable values. The functionality of the Global Variables window is almost identical to that of the ${cont_model} Teach Pendant (TP630). 
+When the connect button is pressed online, the Global Variables window displays the current global variable values. The functionality of the Global Variables window is almost identical to that of the Hi6/Hi7 Teach Pendant (TP630). 
 
 See the link below for instructions.
 
