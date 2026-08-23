@@ -14,6 +14,6 @@
   <img src="../_assets/preface/ui3.png" width="80%">
 </div>
 
-주 메뉴의 '도움말 – Change Language (언어 변경)'을 선택하면 사용자 인터페이스의 언어를 전환할 수 있습니다. 언어를 선택한 후, HRWorkBench를 다시 실행하십시오.
+주 메뉴의 '도움말 - Change Language (언어 변경)'을 선택하면 사용자 인터페이스의 언어를 전환할 수 있습니다. 언어를 선택한 후, HRWorkBench를 다시 실행하십시오.
 
 ![](../_assets/preface/ui4.png)

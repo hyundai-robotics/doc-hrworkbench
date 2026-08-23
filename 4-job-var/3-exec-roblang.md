@@ -8,7 +8,7 @@ Job 편집 창에 시험적으로 아래와 같은 프로그램을 작성했습�
 ![](../_assets/job-edit/exec-roblang01.png)
 
 
-커서를 global msg=”Hello, “에 두고 주 메뉴 Job, 혹은 툴 막대에서 '현재 행 실행'을 클릭하십시오.
+커서를 global msg="Hello, "에 두고 주 메뉴 Job, 혹은 툴 막대에서 '현재 행 실행'을 클릭하십시오.
  
 ![](../_assets/job-edit/exec-roblang02.png)
 
@@ -18,7 +18,7 @@ Job 편집 창에 시험적으로 아래와 같은 프로그램을 작성했습�
 ![](../_assets/job-edit/exec-roblang03.png)
 ![](../_assets/job-edit/exec-roblang04.png)
 
- 
+ 
 주 메뉴 Job, 혹은 툴 막대에서 'Job 실행'을 클릭하면, print문을 포함해 현재 선택된 Job 전체가 실행됩니다.
 
 ![](../_assets/job-edit/exec-roblang05.png)

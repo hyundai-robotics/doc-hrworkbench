@@ -24,7 +24,7 @@ v1.4.2 이전의 전역변수 export 기능은 이 기능으로 대체되었습�
 
 ![](../_assets/var-edit/var-del.png)
 
-{% hint style="warn" %}
+{% hint style="warning" %}
 변수 복원이나 삭제를 수행할 때는 ${cont_model} 제어기는 재생 정지 상태여야 합니다.재생 중 수행하면 불가 메시지가 출력됩니다.
 {% endhint %}
 
