@@ -1,20 +1,20 @@
-﻿## 1.2 HRWorkBench의 설치와 실행
+﻿## 1.2 Install and Execute HRWorkBench
 
-설치파일을 실행하십시오.
+Run the installer.
 
 ![](../_assets/preface/installer1.png)
 
 
-Next 버튼을 계속 누르면, 설치할 위치 등 선택화면이 진행됩니다. 라이선스에 동의하고 마지막으로 Install 버튼을 클릭하면 설치가 진행됩니다.
+Proceed with selecting the installation details, such as the installation location, etc., and click Next. Finally, click the Install button when you agree to the license.
 
 ![](../_assets/preface/installer2.png)
 ![](../_assets/preface/installer3.png)
 
-설치가 완료되면 Finish 버튼을 클릭해, Installer를 종료하십시오.
+Click the Finish button to end the installer once the installation is completed.
 
 ![](../_assets/preface/installer4.png)
 
 
-윈도우 시작버튼을 클릭하고 최근에 추가한 앱, 혹은 HHI Robotics 그룹에서 HRWorkBench를 선택하면 응용프로그램이 실행됩니다.
+Execute the application by clicking the Windows `Start` button and then select HRWorkBench from the `Recently Added App` or the `HHI Robotics Group`.
 
 ![](../_assets/preface/exec-icon.png)

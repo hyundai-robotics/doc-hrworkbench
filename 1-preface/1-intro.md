@@ -1,23 +1,23 @@
-﻿## 1.1 HRWorkBench의 소개
+﻿## 1.1 Introduction to HRWorkBench
 
-HRWorkBench는 HD현대로보틱스 ${cont_model} 제어기의 교시를 지원하기 위한 윈도우PC용 소프트웨어입니다. HRWorkBench는 이더넷 통신으로 연결된 ${cont_model} 제어기에 대해 아래와 같은 기능들을 지원합니다.  
-(Hi5a 제어기에서 사용하던 HRView, HRHistoryViewer 소프트웨어의 후속 제품입니다.)
+HRWorkBench is a Windows PC software designed for supporting the teaching of the ${cont_model} controller of HD Hyundai Robotics.  HRWorkBench supports the following functions of the ${cont_model} controller when connected through Ethernet communication.
+(This is the successor product of the HRView, HRHistoryViewer software used in the Hi5a controller.)
 
-| 구  분 | 설   명 |
+| Category | Description |
 |---|---|
-| 파일 백업과 복원 | 프로젝트 폴더 전체와 이력 폴더 전체를 PC에 백업하고 제어기로 다시 복원할 수 있습니다. |
-| job 파일 관리 | 제어기 내의 job 목록을 확인하고, PC – 제어기 간 일부 JOB 파일을 복사하거나 삭제할 수 있습니다. |
-|job 파일 편집|제어기의 job파일을 더블클릭하여 열고 편집할 수 있습니다. syntax coloring와 smart indent 기능을 지원하여 가독성 있는 편집을 지원합니다.|
-|job 파일 문법검사|실행 전 job파일에 대한 기본적인 문법 검사를 원격으로 수행할 수 있습니다.|
-|전역변수 모니터링과 값 편집|전역변수 전체의 값을 모니터링할 수 있으며, 원하는 변수의 값을 수정하거나 변수를 삭제할 수 있습니다.|
-|로봇언어 실행|job파일의 대입문 등을 원격으로 실행할 수 있습니다. move문이나 flow제어문은 지원하지 않습니다.|
-|제어기 이력 모니터링, 확인|제어기에서 발생한 에러, 경고 등의 이력을 원격으로 모니터링 합니다. 혹은 PC에 백업한 프로젝트의 이력을 확인합니다.|
-|스코프 로그 (scope log) 확인|로봇 충돌 등 치명적인 오류 시에 생성되는 스코프 로그의 데이터 파형을 읽어들여 그래프로 표시해줍니다. 데이터 파형을 .csv 파일로 export할 수도 있습니다.|
-|설정의 확인과 포팅|제어기의 설정이나 변수의 일부를 다른 제어기에 동일하게 반영할 수 있습니다.|
+| Back up and restore files | You can back up the entire project folder and the entire log folder to the PC and restore it back to the controller. |
+| Manage the job files | You can check the list of jobs in the controller and copy or delete some job files in both the PC and controller. |
+|Edit the job files|You can open and edit a job file in the controller by double-clicking it. Syntax coloring and smart indent functions are supported for readable editing.|
+|Check the syntax of job files|You can remotely carry out a basic syntax check of job files before executing them.|
+|Monitor the  global variables, and edit their values|You can monitor the values of all global variables and modify the value of the targeted variables or delete targeted variables.|
+|Execute the Robot Language|You can remotely execute an assignment statement of a job file. There is no support for the move statement or flow control statement.|
+|Monitor, check logs in the controller|You can monitor the logs of errors, warnings, etc. that have occurred in the remote controller. And you can check the logs of the project you backed up to the PC.|
+|Check the scope logs|Load and draw the data waveform of the scope log that generated on critical error as a robot collision. You can also export the data waveform to a .csv file.|
+|Verify and Port Settings|You can apply some of a controller’s settings or variables to another controller in the same way.|
 
 
 {% hint style="warn" %}
-본 프로그램은 job 프로그램이나 변수 값을 원격으로 변경하므로, 로봇 동작에 영향을 줄 수 있습니다. 본 설명서를 숙지하시고 충분한 주의를 기울여 신중하게 사용해주십시오!
+This program allows you to remotely change the job program or variable value, so it may affect the robot′s operation. You are required to read this manual and use the program carefully while paying sufficient attention!
 {% endhint %}
 
-* HRWorkBench는 HD현대로보틱스 웹사이트(https://www.hd-hyundairobotics.com/) - 고객지원 - 응용소프트웨어 화면에서 다운로드 받으실 수 있습니다.
+* HRWorkBench can be downloaded from the `Download center` page under `Customer Support` on the HD Hyundai Robotics website(https://www.hd-hyundairobotics.com/en/main).
