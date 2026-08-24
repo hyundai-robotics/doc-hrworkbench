@@ -1,4 +1,4 @@
-﻿# 4.1.4 Undo/Redo와 저장
+﻿# 4.1.5 Undo/Redo와 저장
 
 편집 창은 단축키로 `Ctrl+Z`와 `Ctrl+Y`로 Undo와 Redo를 제공합니다.
 

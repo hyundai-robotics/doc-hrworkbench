@@ -19,6 +19,7 @@
 [__SOURCE](1-preface/README.md)
 # 1. 개요
 
+HRWorkBench v1.12.0.0을 기준으로 설명합니다.
 
 [__SOURCE](1-preface/1-intro.md)
 ## 1.1 HRWorkBench의 소개
@@ -304,8 +305,40 @@ Tab을 선택하여 원하는 job을 편집할 수 있습니다. 2개의 파일�
 
 편집 창은 <img src="../../_assets/job-edit/job-min.png">  버튼으로 최소화하고, <img src="../../_assets/job-edit/job-max.png"> 버튼으로 최대화 할 수 있습니다. <img src="../../_assets/job-edit/job-close.png"> 버튼을 클릭하거나 ctrl+F4를 누르면 닫힙니다.
 
-[__SOURCE](4-job-var/1-job-edit/2-encoding.md)
-# 4.1.2 인코딩 변환하여 다시 불러오기
+[__SOURCE](4-job-var/1-job-edit/2-compare.md)
+# 4.1.2 파일 비교 및 동기화 선택 기능
+
+### 파일 비교
+
+탐색창 위의 `RC/PC 비교`(<img src="../../_assets/explorer/bt-compare.png">) 버튼을 클릭하면, jobs/와 vars/ 의 항목들에 대해, 로봇제어기와 PC간 동일 여부가 표시됩니다.
+ 
+![](../../_assets/explorer/explorer-compare.png)
+ 
+각 항목 우측에 표시되는 기호의 의미는 아래와 같습니다.
+
+| 구  분 |   설   명             |
+|---|---------------------------|
+| = | 내용이 동일한 파일          |
+| / | 내용이 다른 파일            |
+| + | 상대편에 존재하지 않는 파일  |
+
+이 버튼은 토글 방식이어서 한번 더 클릭하면 표시가 꺼집니다.
+
+---------------------
+### 동기화 선택
+
+job파일과 변수파일이 많을 경우, 트리뷰에서 찾기가 번거로울 수 있습니다. `동기화 선택` 버튼을 사용하면, 파일을 빠르게 선택할 수 있습니다.
+
+job 편집창 중 하나의 탭이 선택된 상태에서, `트리/탭 동기`(<img src="../../_assets/explorer/bt-sync_lr.png">)버튼을 클릭하면, 해당하는 `PC/jobs/`의 해당 job의 항목이 선택됩니다. (`로봇제어기/jobs/`의 항목을 선택한 상태였으면 `로봇제어기/jobs/`에서 선택됩니다.)
+
+![](../../_assets/explorer/explorer-sync.png)
+
+`로봇제어기/jobs/`의 항목 중 하나를 선택한 상태에서, `RC/PC 동기`(<img src="../../_assets/explorer/bt-sync_ud.png">)버튼을 클릭하면, `PC/jobs/`의 대응 항목으로 선택이 이동합니다. `PC/jobs/`의 항목 중 하나를 선택한 상태라면 그 반대로 동작합니다. 즉 버튼을 클릭할 때마다 RC/PC가 전환됩니다.
+
+(`vars/`에 대해서도 동일하게 동작합니다.)
+
+[__SOURCE](4-job-var/1-job-edit/3-encoding.md)
+# 4.1.3 인코딩 변환하여 다시 불러오기
 
 job 파일을 열었을 때, 영어가 아닌 글자(한글, 중문 등) 주석이나 문자열이 깨져 보이는 경우가있습니다. Hi6/Hi7제어기의 job파일은 utf-8 인코딩으로 저장되어야 하는데, 다른 인코딩(가령, EUC-KR이나 GB2312)으로 저장되어 있으면 HRWorkBench와 티치펜던트에 제대로 표시되지 않습니다.
 
@@ -316,8 +349,8 @@ job 파일을 열었을 때, 영어가 아닌 글자(한글, 중문 등) 주석�
 
 ![](../../_assets/job-edit/encoding2.png) 
 
-[__SOURCE](4-job-var/1-job-edit/3-syntax-coloring.md)
-# 4.1.3 syntax coloring과 자동 다단 들여쓰기 (smart indent)
+[__SOURCE](4-job-var/1-job-edit/4-syntax-coloring.md)
+# 4.1.4 syntax coloring과 자동 다단 들여쓰기 (smart indent)
 
 편집 창은 가독성을 위해 기본적인 syntax coloring을 제공합니다. 주요 명령어와 문자열, 숨은 포즈, 주석, job 헤더가 고유의 색상으로 표시됩니다.
 
@@ -334,8 +367,8 @@ flow제어문의 구조를 파악하기 쉽도록, 자동 다단 들여쓰기 (s
   <img src="../../_assets/job-edit/smart-indent2.png" width="50%">
 </div>
 
-[__SOURCE](4-job-var/1-job-edit/4-undo-redo.md)
-# 4.1.4 Undo/Redo와 저장
+[__SOURCE](4-job-var/1-job-edit/5-undo-redo.md)
+# 4.1.5 Undo/Redo와 저장
 
 편집 창은 단축키로 `Ctrl+Z`와 `Ctrl+Y`로 Undo와 Redo를 제공합니다.
 
@@ -347,8 +380,8 @@ flow제어문의 구조를 파악하기 쉽도록, 자동 다단 들여쓰기 (s
 
 주 메뉴의 'Job - 저장 후 RC로 복사'를 선택하거나 툴 막대의 <img src="../../_assets/tool-btn/tb-upload2rc.png"> 버튼을 클릭하면, 저장 후 로봇제어기로 복사하여 즉시 반영까지 해줍니다.
 
-[__SOURCE](4-job-var/1-job-edit/5-find-replace.md)
-# 4.1.5 찾기/바꾸기/찾아가기
+[__SOURCE](4-job-var/1-job-edit/6-find-replace.md)
+# 4.1.6 찾기/바꾸기/찾아가기
 
 주 메뉴의 '편집 - 찾기와 바꾸기'를 선택하거나 단축키 Ctrl+F 혹은 Ctrl+F3을 눌러 찾기/바꾸기 대화상자를 열 수 있습니다. 특정한 텍스트를 선택한 상태였으면, 그 텍스트가 자동으로 '찾을 내용'에 입력됩니다. 
  
@@ -394,8 +427,8 @@ flow제어문의 구조를 파악하기 쉽도록, 자동 다단 들여쓰기 (s
 
 ![](../../_assets/find-replace/dlg-goto.png)
 
-[__SOURCE](4-job-var/1-job-edit/6-etc.md)
-# 4.1.6 기타 기능
+[__SOURCE](4-job-var/1-job-edit/7-etc.md)
+# 4.1.7 기타 기능
 
 *	글자 크기 조정: `ctrl+마우스 휠`을 조작하면 Job 편집 화면의 글자 크기를 크거나 작게 조정할 수 있습니다. 
 [__SOURCE](4-job-var/2-syntax-check.md)

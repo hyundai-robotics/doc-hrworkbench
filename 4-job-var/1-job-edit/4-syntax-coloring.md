@@ -1,4 +1,4 @@
-﻿# 4.1.3 syntax coloring과 자동 다단 들여쓰기 (smart indent)
+﻿# 4.1.4 syntax coloring과 자동 다단 들여쓰기 (smart indent)
 
 편집 창은 가독성을 위해 기본적인 syntax coloring을 제공합니다. 주요 명령어와 문자열, 숨은 포즈, 주석, job 헤더가 고유의 색상으로 표시됩니다.
 
