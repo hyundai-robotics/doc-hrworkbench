@@ -22,6 +22,7 @@ During the execution of a user script, logic errors or unmet execution condition
 [__SOURCE](1-preface/README.md)
 # 1. Overview
 
+This manual describes the features based on HRWorkbench v1.12.0.
 
 [__SOURCE](1-preface/1-intro.md)
 ## 1.1 Introduction to HRWorkBench
@@ -310,8 +311,41 @@ Selecting `Tile` or `Cascade` from the `Window` main menu or the toolbar allows 
 
 You can minimize the Edit window with the <img src="../../_assets/job-edit/job-min.png"> button and maximize it with the <img src="../../_assets/job-edit/job-max.png"> button. Clicking the <img src="../../_assets/job-edit/job-close.png"> button or pressing `ctrl+F4` will close the Edit window.
 
-[__SOURCE](4-job-var/1-job-edit/2-encoding.md)
-# 4.1.2 Reloading after Converting Encoded Job Files
+[__SOURCE](4-job-var/1-job-edit/2-compare.md)
+# 4.1.2 File Comparison and Sync. Selection
+
+### File Comparison
+
+Click the `Compare RC/PC` (<img src="../../_assets/explorer/bt-compare.png">) button above the Explorer pane to display whether the items in `jobs/` and `vars/` are identical between the Robot Controller and the PC.
+
+![](../../_assets/explorer/explorer-compare.png)
+ 
+The symbols displayed to the right of each item have the following meanings:
+
+| Symbol |   Description                          |
+|------|------------------------------------------|
+|  =  | The file contents are identical.           |
+|  /  | The file contents are different.           |
+|  +  | The file does not exist on the other side. |
+
+This button works as a toggle. Click it again to hide the comparison results.
+
+---------------------
+### Sync. Selection
+
+When there are many job and variable files, finding a specific file in the tree view can be cumbersome. The `Sync. Selection` buttons you to quickly select the corresponding file.
+
+With a tab selected in one of the job editors, click the `Tree/Tab Sync.` (<img src="../../_assets/explorer/bt-sync_lr.png">) button. The corresponding job item under `PC/jobs/` is selected. (If an item under `Robot Controller/jobs/` was selected, the corresponding item under `Robot Controller/jobs/` is selected.)
+
+![](../../_assets/explorer/explorer-sync.png)
+
+
+When an item under `Robot Controller/jobs/` is selected, click the `RC/PC Sync.` (<img src="../../_assets/explorer/bt-sync_ud.png">) button to move the selection to the corresponding item under `PC/jobs/`. If an item under `PC/jobs/` is selected, the selection moves in the opposite direction. In other words, each click of the button switches the selection between the RC and PC.
+
+(The same behavior applies to `vars/`.)
+
+[__SOURCE](4-job-var/1-job-edit/3-encoding.md)
+# 4.1.3 Reloading after Converting Encoded Job Files
 
 When a job file is opened, non-English characters (Korean, Chinese, etc.), comments, or strings may appear broken. The job file of the Hi6/Hi7 controller should be saved in utf-8 encoding, but the file will not be displayed properly in HRWorkBench and teach pendant if the file is saved with a different type of encoding (EUC-KR, GB2312). 
 
@@ -323,8 +357,8 @@ For example, if the job file is encoded in an extended complete type, select `Jo
 
 ![](../../_assets/job-edit/encoding2.png) 
 
-[__SOURCE](4-job-var/1-job-edit/3-syntax-coloring.md)
-# 4.1.3 Syntax Coloring and Automatic Multi Stage Indentation (Smart Indent)
+[__SOURCE](4-job-var/1-job-edit/4-syntax-coloring.md)
+# 4.1.4 Syntax Coloring and Automatic Multi Stage Indentation (Smart Indent)
 
 The Edit window provides basic syntax coloring for readability, where main commands and strings, hidden poses, comments, and job headers are displayed in unique colors.
 
@@ -339,8 +373,8 @@ An automatic multi stage indentation function (smart indent) is also used for a 
   <img src="../../_assets/job-edit/smart-indent2.png" width="50%">
 </div>
 
-[__SOURCE](4-job-var/1-job-edit/4-undo-redo.md)
-# 4.1.4 Undo, Redo, and Save
+[__SOURCE](4-job-var/1-job-edit/5-undo-redo.md)
+# 4.1.5 Undo, Redo, and Save
 
 The Edit window provides Undo and Redo functions with the shortcut keys `Ctrl+Z` and `Ctrl+Y`.
 
@@ -352,8 +386,8 @@ You can save the edited contents to a file by selecting `File - Save` or `File -
 
 The file will be saved and copied to and immediately reflected in the robot controller if you select `Job - Save & Copy to RC` in the main menu or click the <img src="../../_assets/tool-btn/tb-upload2rc.png"> button on the toolbar.
 
-[__SOURCE](4-job-var/1-job-edit/5-find-replace.md)
-# 4.1.5 Find, Replace, and Go To Lines
+[__SOURCE](4-job-var/1-job-edit/6-find-replace.md)
+# 4.1.6 Find, Replace, and Go To Lines
 
 You can open the Find/Replace dialog box by selecting `Edit - Find and Replace` in the main menu or by pressing the shortcut key `Ctrl+F` or `Ctlr+F3.` If a specific text has been selected, the text will be automatically inputted into `Find`. 
  
@@ -398,8 +432,8 @@ You can select `Job - Go To` in the main menu or press the shortcut key `Ctrl+G`
 
 ![](../../_assets/find-replace/dlg-goto.png)
 
-[__SOURCE](4-job-var/1-job-edit/6-etc.md)
-# 4.1.6 Other functions
+[__SOURCE](4-job-var/1-job-edit/7-etc.md)
+# 4.1.7 Other functions
 
 *	Font Size Adjustment: `Ctrl+mouse wheel` to change the font size in the job editor.
 

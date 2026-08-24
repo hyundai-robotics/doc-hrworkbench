@@ -1,4 +1,4 @@
-﻿# 4.1.4 Undo, Redo, and Save
+﻿# 4.1.5 Undo, Redo, and Save
 
 The Edit window provides Undo and Redo functions with the shortcut keys `Ctrl+Z` and `Ctrl+Y`.
 

@@ -1,4 +1,4 @@
-﻿# 4.1.3 Syntax Coloring and Automatic Multi Stage Indentation (Smart Indent)
+﻿# 4.1.4 Syntax Coloring and Automatic Multi Stage Indentation (Smart Indent)
 
 The Edit window provides basic syntax coloring for readability, where main commands and strings, hidden poses, comments, and job headers are displayed in unique colors.
 

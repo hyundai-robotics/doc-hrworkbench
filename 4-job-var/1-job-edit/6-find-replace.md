@@ -1,4 +1,4 @@
-﻿# 4.1.5 Find, Replace, and Go To Lines
+﻿# 4.1.6 Find, Replace, and Go To Lines
 
 You can open the Find/Replace dialog box by selecting `Edit - Find and Replace` in the main menu or by pressing the shortcut key `Ctrl+F` or `Ctlr+F3.` If a specific text has been selected, the text will be automatically inputted into `Find`. 
  

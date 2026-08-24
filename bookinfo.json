@@ -4,7 +4,7 @@
     "title": "Function Manual - HRWorkBench",
     "publisher": "HD Hyundai Robotics",
     "tocTitle": "Table of Contents",
-    "tocTitleElements": "[ \"h1\", \"h2\" ]",
+    "tocTitleElements": "[ \"h1\", \"h2\", \"h3\" ]",
     "docId": "HRWORKBENCH_EN_001",
     "references": [
         { "title" : "Hi6 Controller Operation Manual - TP630", "id" : "HI6OPTP630_EN_001" },
